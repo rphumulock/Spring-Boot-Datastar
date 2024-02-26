@@ -1,0 +1,29 @@
+<div th:fragment="battle" id="battle" class="flex" xmlns:th="http://www.w3.org/1999/xhtml">
+        <li th:each="games : ${games}">
+            <div class="card w-96 bg-primary text-primary-content">
+                <div class="card-body">
+                    <h2 class="card-title">Card title!</h2>
+                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                    <div class="card-actions justify-end">
+
+                        <div id="contact_1" data-fetch-url="'/contact/1'" data-on-load="$$get">Replace me</div>
+
+
+                        <div data-merge-store='{ "count": "123" }'>
+                            <div>
+                                <button class="btn btn-accent" data-on-click="$count++">
+                                    Increment +
+                                </button>
+                                <button class="btn btn-secondary" data-on-click="$count--">
+                                    Decrement -
+                                </button>
+                                <input class="input input-bordered w-full max-w-xs text-white" type="number" data-model="count" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+
+</div>

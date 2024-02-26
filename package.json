@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "styles": "npx tailwindcss -i ./src/main/resources/static/input.css -o ./src/main/resources/static/styles/output.css --watch",
+    "styles": "npx tailwindcss -i ./src/main/resources/static/input.css -o ./src/main/resources/static/output.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -15,6 +15,5 @@
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.11",
     "tailwindcss": "^3.4.1"
-  },
-  "dependencies": {}
+  }
 }
